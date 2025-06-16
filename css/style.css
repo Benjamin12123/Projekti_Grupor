@@ -1,0 +1,98 @@
+body{
+ background-color:  rgba(248,248,248,1);
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:rgba(248,248,248,0.9);
+
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #d7d1c7;
+  padding: 20px;
+}
+
+footer > div:first-child {
+  flex: 1; 
+  gap: 30px;
+}
+
+footer > div:nth-child(2) {
+  flex: 1; 
+  text-align: center;
+}
+
+footer > div:last-child {
+  flex: 1;
+  text-align: right;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+footer > div {
+  flex: 1 1 30%; /* allow flexibility */
+  min-width: 200px;
+}
+
+footer a {
+  margin-right: 10px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+
+.Images{
+  display: flex;
+  flex-wrap: wrap; /* allows images to wrap on smaller screens */
+  gap: 20px;
+  justify-content: center; /* optional: center items */
+}
+
+.Images a {
+  flex: 1 1 30%; /* grow, shrink, basis */
+/* prevents them from getting too small */
+margin-top: 50px;
+}
+
+.Images img {
+  width: 100%;      /* fills the link's width */
+  height: auto;     /* keeps aspect ratio */
+  display: block;   /* removes unwanted spacing below images */
+
+}
+
+/* //////////////////men//////////////////////////// */
+
+
+
+
+
+
+
+/* //////////////////women//////////////////////////// */
+
+
+
+
+/* //////////////////accesores//////////////////////////// */
+
