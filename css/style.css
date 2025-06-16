@@ -41,7 +41,7 @@ a{
 
 footer {
   display: flex;
-  flex-wrap: wrap; /* allows wrapping on small screens */
+  flex-wrap: wrap; 
   justify-content: space-between;
   align-items: center;
   gap: 20px;
@@ -50,7 +50,7 @@ footer {
 }
 
 footer > div {
-  flex: 1 1 30%; /* allow flexibility */
+  flex: 1 1 30%; 
   min-width: 200px;
 }
 
@@ -63,21 +63,20 @@ footer a {
 
 .Images{
   display: flex;
-  flex-wrap: wrap; /* allows images to wrap on smaller screens */
+  flex-wrap: wrap; 
   gap: 20px;
-  justify-content: center; /* optional: center items */
+  justify-content: center; 
 }
 
 .Images a {
-  flex: 1 1 30%; /* grow, shrink, basis */
-/* prevents them from getting too small */
+  flex: 1 1 30%; 
 margin-top: 50px;
 }
 
 .Images img {
-  width: 100%;      /* fills the link's width */
-  height: auto;     /* keeps aspect ratio */
-  display: block;   /* removes unwanted spacing below images */
+  width: 100%;      
+  height: auto;    
+  display: block;   
 
 }
 
