@@ -181,6 +181,37 @@ p{
   margin-right:25px;
 }
 
+h2{
+   text-align: center;
+ color: #3a3a3a;
+}
+
+
+
+.video-container {
+  position: relative;
+
+  max-width: 100%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+
+  padding: 20px;
+  border-radius: 8px;
+}
 
 
 
@@ -190,10 +221,99 @@ p{
 
 
 
+<<<<<<< HEAD
+=======
+/* //////////////////accesores//////////////////////////// */
+
+<<<<<<< HEAD
+
+=======
+/* ======= */
+>>>>>>> 5f0cbb5c6033c38d96c0b69d8d9bd4cb56315fa1
+body{
+ background-color:  rgba(248,248,248,1);
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:rgba(248,248,248,0.9);
+
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #d7d1c7;
+  padding: 20px;
+}
+
+footer > div:first-child {
+  flex: 1; 
+  gap: 30px;
+}
+
+footer > div:nth-child(2) {
+  flex: 1; 
+  text-align: center;
+}
+
+footer > div:last-child {
+  flex: 1;
+  text-align: right;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+footer > div {
+  flex: 1 1 30%; 
+  min-width: 200px;
+}
+
+footer a {
+  margin-right: 10px;
+  display: inline-block;
+  white-space: nowrap;
+}
 
 
+.Images{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+  justify-content: center; 
+}
 
+.Images a {
+  flex: 1 1 30%; 
+margin-top: 50px;
+}
 
+.Images img {
+  width: 100%;      
+  height: auto;    
+  display: block;   
+
+}
+
+/* //////////////////men//////////////////////////// */
+>>>>>>> 7028c869fa15d8cd2b45aa181093cd572cd22017
 
 
 
@@ -897,4 +1017,3 @@ body {
 
 
 
->>>>>>> 6f8fe9012c77f316832a0017850ec872637efa30:css/style.css
