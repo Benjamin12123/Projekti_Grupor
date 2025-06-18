@@ -45,6 +45,20 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const showToggle = document.getElementById("show-toggle");
+  const showBox = document.getElementById("show-box");
+
+  showToggle.addEventListener("click", function () {
+    if (showBox.style.display === "none" || showBox.style.display === "") {
+      showBox.style.display = "block";
+    } else {
+      showBox.style.display = "none";
+    }
+  });
+});
+
+
 
 
 

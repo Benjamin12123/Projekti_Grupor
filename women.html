@@ -4,22 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   
   <header>
-    <p>1</p>
-    <p>DIOR</p>
-    <p>Log In</p>
-  </header>
-
-  <main>
-    <div class="Images">
-     <a href="Men.html"><img class="img" src="Foto/image2s.jpg" alt="" ></a> 
-     <a href="Women.html"><img class="img" src="Foto/XRAY-MODELS-ALBA-ROMAN-PORTRAIT-800x1000.jpg" alt="" ></a> 
-     <a href="Accesories.html"><img class="img" src="Foto/mt6507_w0.avif" alt="" ></a>
+    
+      <div id="show-toggle">Go to Pages</div>
+      <div id="show-box">
+        <div><a href="men.html">Men</a></div>
+        <div><a href="women.html">Women</a></div>
+        <div><a href="men.html">Accessories</a></div>
+      
     </div>
+    <p>  <a href="index.html">DIOR</a> </p>
+    <p id="login-toggle">Log In</p>
+
+
+  </header>
+<main>
+
+    <div id="login-form">
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <button type="submit">Log In</button>
+    </form>
+  </div>
+    
+    
   </main>
 
 
@@ -27,7 +42,7 @@
 
 
 
-  <footer>
+<footer>
   <div>Follow Us: <a href="https://www.tiktok.com/@diorbeauty" target="_blank">Tiktok</a> 
     <a href="https://www.instagram.com/diorbeauty/" target="_blank">Instagram</a> 
     <a href="https://www.facebook.com/Dior" target="_blank">Facebook</a> 
@@ -35,13 +50,13 @@
     <a href="https://www.snapchat.com/add/dior" target="_blank">Snapchat</a> 
   </div> 
 
-  <div>DIOR</div> 
+  <div> <a href="index.html">DIOR</a></div> 
 
   <div>Enjoy yourselves</div>
 
   </footer>
 
 
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

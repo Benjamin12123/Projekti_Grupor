@@ -1,6 +1,7 @@
 /* <<<<<<< HEAD:style.css */
 body{
  background-color:  rgba(248,248,248,1);
+
 }
 
 header{
@@ -11,7 +12,7 @@ header{
   display: flex;
   justify-content: space-between;
   background-color:rgba(248,248,248,0.9);
-
+  padding: 10px 20px 15px 0px;
 }
 
 footer {
@@ -42,16 +43,16 @@ a{
 
 footer {
   display: flex;
-  flex-wrap: wrap; /* allows wrapping on small screens */
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
   padding: 20px;
-
+  margin-top: 20px;
 }
 
 footer > div {
-  flex: 1 1 30%; /* allow flexibility */
+  flex: 1 1 30%; 
   min-width: 200px;
 }
 
@@ -64,20 +65,22 @@ footer a {
 
 .Images{
   display: flex;
-  flex-wrap: wrap; /* allows images to wrap on smaller screens */
+  flex-wrap: wrap;
   gap: 20px;
-  justify-content: center; /* optional: center items */
+  justify-content: center; 
+  margin-top: 60px;
 }
 
 .Images a {
-  flex: 1 1 30%; /* grow, shrink, basis */
-/* prevents them from getting too small */
+  flex: 1 1 30%; 
+
 }
 
 .Images img {
-  width: 100%;      /* fills the link's width */
-  height: auto;     /* keeps aspect ratio */
-  display: block;   /* removes unwanted spacing below images */
+  width: 100%;      
+  height: 100%;     
+  display: block;  
+  margin: 5px;
 
 }
 
@@ -86,11 +89,16 @@ footer a {
 }
 
 #login-form {
-  display: none; /* Hidden by default */
+  display: none; 
   margin: 1rem;
   border: 1px solid #ccc;
   padding: 1rem;
+  background-color:rgba(248,248,248,0.9);
   width: 200px;
+  position: absolute;
+  top: 20px;  
+  right: 20px; 
+  
 }
 
 label {
@@ -103,6 +111,18 @@ input {
   padding: 0.4rem;
   margin-top: 0.2rem;
 }
+
+#show-box {
+    display: none; 
+    position: absolute; 
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  #show-toggle{
+    padding-left: 10px;
+  }
+
 
 /* //////////////////men//////////////////////////// */
 
@@ -174,105 +194,10 @@ p{
 
 
 
-/* //////////////////accesores//////////////////////////// */
-
-/* ======= */
-body{
- background-color:  rgba(248,248,248,1);
-}
-
-header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  background-color:rgba(248,248,248,0.9);
-
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  background-color: #d7d1c7;
-  padding: 20px;
-}
-
-footer > div:first-child {
-  flex: 1; 
-  gap: 30px;
-}
-
-footer > div:nth-child(2) {
-  flex: 1; 
-  text-align: center;
-}
-
-footer > div:last-child {
-  flex: 1;
-  text-align: right;
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-
-footer {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-
-}
-
-footer > div {
-  flex: 1 1 30%; 
-  min-width: 200px;
-}
-
-footer a {
-  margin-right: 10px;
-  display: inline-block;
-  white-space: nowrap;
-}
-
-
-.Images{
-  display: flex;
-  flex-wrap: wrap; 
-  gap: 20px;
-  justify-content: center; 
-}
-
-.Images a {
-  flex: 1 1 30%; 
-margin-top: 50px;
-}
-
-.Images img {
-  width: 100%;      
-  height: auto;    
-  display: block;   
-
-}
-
-/* //////////////////men//////////////////////////// */
 
 
 
-
-
-
-
-/* //////////////////women//////////////////////////// */
-
-
-
-
-/* //////////////////accesores//////////////////////////// */
+/* //////////////////accessories//////////////////////////// */
 :root {
 
   /**
