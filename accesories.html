@@ -1,52 +1,505 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Dior</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload imagesS
+  -->
+  <link rel="preload" as="image" href="images/logo.png">
+  <link rel="preload" as="image" href="images/hero-banner-1.avif">
+  <link rel="preload" as="image" href="images/hero-banner-2.avif">
+  <link rel="preload" as="image" href="images/hero-banner-3.jpg">
+
 </head>
-<body>
-  
-  <header>
-    <p>1</p>
-    <p>DIOR</p>
-    <p>Log In</p>
-  </header>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">Free Shipping On All U.S. Orders $1000+</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        
+
+        
+        <a href="#" class="logo">
+          <img src="images/logo.png" width="179" height="26" alt="Dior">
+        </a>
+
+      <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="images/logo.png" width="179" height="26" alt="Glowing">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Collection</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="navbar-link" data-nav-link>Shop</a>
+        </li>
+
+        <li>
+          <a href="#offer" class="navbar-link" data-nav-link>Offer</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+
+
 
   <main>
-    <div class="Images">
-     <a href="Men.html"><img class="img" src="Foto/image2s.jpg" alt="" ></a> 
-     <a href="Women.html"><img class="img" src="Foto/XRAY-MODELS-ALBA-ROMAN-PORTRAIT-800x1000.jpg" alt="" ></a> 
-     <a href="Accesories.html"><img class="img" src="Foto/mt6507_w0.avif" alt="" ></a>
-    </div>
-  </main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero" data-section>
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('images/hero-banner-1.avif')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Rose Des Vents <br>
+                    
+                  </h1>
+
+                  <p class="hero-text">
+                    Celebrating one of Christian Dior’s most cherished emblems, the Rose des Vents jewelry is decorated with colorful ornamental stones and sparkling diamonds.
+                     Elegant amulets to be kept forever within reach, like eternal guardians of life's joys.
+                  </p>
+
+                  <p class="price">Explore Stories</p>
+
+                  <a href="#" class="btn btn-primary">Celebrate</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('images/hero-banner-2.avif')">
+
+                <div class="card-content">
+
+                 <h1 class="h1 hero-title">
+                    Rose Des Vents <br>
+                    
+                  </h1>
+
+                  <p class="hero-text">
+                    Celebrating one of Christian Dior’s most cherished emblems, the Rose des Vents jewelry is decorated with colorful ornamental stones and sparkling diamonds.
+                     Elegant amulets to be kept forever within reach, like eternal guardians of life's joys.
+                  </p>
+
+                  <p class="price">Explore Stories</p>
+
+                  <a href="#" class="btn btn-primary">Celebrate</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('images/hero-banner-3.jpg')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Rose Des Vents <br>
+                    
+                  </h1>
+
+                  <p class="hero-text">
+                    Celebrating one of Christian Dior’s most cherished emblems, the Rose des Vents jewelry is decorated with colorful ornamental stones and sparkling diamonds.
+                     Elegant amulets to be kept forever within reach, like eternal guardians of life's joys.
+                  </p>
+
+                  <p class="price">Explore Stories</p>
+
+                  <a href="#" class="btn btn-primary">Celebrate</a>
+
+                </div>
+
+              </div>
+      </section>
 
 
 
 
 
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" id="collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Rings</h2>
+
+                <p class="card-text">Wonderful and thrilling stories which complement our style, the rings possess all the virtuosity and creativity of Victoire de Castellane.</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Shop Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('images/collection-1.png')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Earrings</h2>
+
+                <p class="card-text">The earrings designed by Victoire de Castellane complement graceful style, illuminating the face while 
+                  promoting the boldness of asymmetrical shapes.</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Discover Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('images/collection-2.png')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Bracelets</h2>
+
+                <p class="card-text">Worn on their own, as a pair or around the wrist, the bracelets designed by Victoire de Castellane are delicate, 
+                  feminine collectible treasures.</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Discover Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('images/collection-3.jpg')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
 
 
 
 
 
+      <!-- 
+        - #SHOP
+      -->
 
-  <footer>
-  <div>Follow Us: <a href="https://www.tiktok.com/@diorbeauty" target="_blank">Tiktok</a> 
-    <a href="https://www.instagram.com/diorbeauty/" target="_blank">Instagram</a> 
-    <a href="https://www.facebook.com/Dior" target="_blank">Facebook</a> 
-    <a href="https://x.com/DIOR" target="_blank">X</a> 
-    <a href="https://www.snapchat.com/add/dior" target="_blank">Snapchat</a> 
-  </div> 
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
 
-  <div>DIOR</div> 
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Accessories</h2>
 
-  <div>Enjoy yourselves</div>
+            <a href="#" class="btn-link">
+              <span class="span">Shop All Products</span>
 
-  </footer>
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="images/product-01.webp" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-10%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">$990.00</del>
+
+                    <span class="span">$890.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">30 Montaigne Reversible Belt</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="images/product-02.webp" width="540" height="720" loading="lazy"
+                    alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">$320.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Mitzah Scarf</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="images/product-03.webp" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">$1750.0</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">30 Montaigne Call'in Dior Phone Holder</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="images/product-04.webp" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">$1050.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">D-Bobby Small Brim Hat</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      </div>
 
 
-  <script src="main.js"></script>
-</body>
+
+                      <script src="js/main.js" defer></script>
+
+                    </body>
 </html>
+                      
