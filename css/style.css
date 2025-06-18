@@ -81,6 +81,29 @@ footer a {
 
 }
 
+#login-toggle {
+  cursor: pointer;
+}
+
+#login-form {
+  display: none; /* Hidden by default */
+  margin: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+}
+
+label {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
+}
+
 /* //////////////////men//////////////////////////// */
 
 
@@ -137,6 +160,8 @@ p{
   margin-left:25px;
   margin-right:25px;
 }
+
+
 
 
 
