@@ -73,6 +73,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
+
+
+
 /* //////////////////accesores//////////////////////////// */
 
 

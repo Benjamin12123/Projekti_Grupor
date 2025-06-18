@@ -1,4 +1,4 @@
-<<<<<<< HEAD:style.css
+/* <<<<<<< HEAD:style.css */
 body{
  background-color:  rgba(248,248,248,1);
 }
@@ -161,10 +161,37 @@ p{
   margin-right:25px;
 }
 
+h2{
+   text-align: center;
+ color: #3a3a3a;
+}
 
 
 
+.video-container {
+  position: relative;
 
+  max-width: 100%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+
+  padding: 20px;
+  border-radius: 8px;
+}
 
 
 
@@ -176,7 +203,7 @@ p{
 
 /* //////////////////accesores//////////////////////////// */
 
-=======
+
 body{
  background-color:  rgba(248,248,248,1);
 }
@@ -274,4 +301,3 @@ margin-top: 50px;
 
 /* //////////////////accesores//////////////////////////// */
 
->>>>>>> 6f8fe9012c77f316832a0017850ec872637efa30:css/style.css
