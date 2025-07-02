@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIOR</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <!-- Box Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,900&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Preload Images -->
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+</head>
+
+<body id="top">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">
+          To learn about the recent data security incident affecting Dior, click here
+        </p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Search product" class="search-field">
+          <button class="search-submit" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <a href="indexelsa.html" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="Dior">
+        </a>
+
+        <div class="header-actions">
+          <button class="header-action-btn" aria-label="user">
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="header-action-btn" aria-label="favourite item">
+            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+            <span class="btn-badge">0</span>
+          </button>
+
+          <button class="header-action-btn" aria-label="cart item">
+            <data class="btn-text" value="0">$0.00</data>
+            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+            <span class="btn-badge">0</span>
+          </button>
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li><a href="men.html" class="navbar-link has-after">Men's Fashion</a></li>
+            <li><a href="#collection" class="navbar-link has-after">Collection</a></li>
+            <li><a href="#shop" class="navbar-link has-after">Shop</a></li>
+            <li><a href="#offer" class="navbar-link has-after">Offer</a></li>
+            <li><a href="#blog" class="navbar-link has-after">Discover</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navbar -->
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="Dior">
+        </a>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+        <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+        <li><a href="#collection" class="navbar-link" data-nav-link>Collection</a></li>
+        <li><a href="#shop" class="navbar-link" data-nav-link>Shop</a></li>
+        <li><a href="#offer" class="navbar-link" data-nav-link>Offer</a></li>
+        <li><a href="#blog" class="navbar-link" data-nav-link>Blog</a></li>
+      </ul>
+    </div>
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+  <br>
+
+  <body>
+    <div class="rings-content">
+        <h1 class="rings-title">Online Exclusive Pre-Order</h1>
+        <p class="rings-description">
+            Dior and Lewis Hamilton
+        </p>
+        <p class="rings-count">The guest Lifestyle capsule by Lewis Hamilton merges 
+          the streetwear aesthetic with timeless sophistication in daring pieces with bold volumes.</p>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" id="collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+               <span class="span">Shop Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/th1.webp')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+              
+                  <span class="span">Discover Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/th2.webp')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+               
+
+                <a href="#" class="btn-link">
+                  <span class="span">Discover Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/th3.webp')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <br>
+
+   <!-- Horizontal Product Grid -->
+    <section class="product-grid-horizontal">
+        <!-- Product 1 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th4.webp" alt="Rose des Vents Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$9,750.00</p>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th5.webp" alt="Gem Dior Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$3,200.00</p>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th6.webp" alt="Liens d'Amour Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$2,800.00</p>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th7.webp" alt="Diorama Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$4,500.00</p>
+            </div>
+        </div>
+    </section>
+
+  
+
+     <!-- Horizontal Product Grid -->
+    <section class="product-grid-horizontal">
+        <!-- Product 5 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th8.webp" alt="Rose des Vents Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$9,750.00</p>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th9.webp" alt="Gem Dior Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$3,200.00</p>
+            </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th10.webp" alt="Liens d'Amour Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$2,800.00</p>
+            </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th11.webp" alt="Diorama Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$4,500.00</p>
+            </div>
+        </div>
+    </section>
+
+     <!-- Horizontal Product Grid -->
+    <section class="product-grid-horizontal">
+        <!-- Product 9 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th12.webp" alt="Rose des Vents Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$9,750.00</p>
+            </div>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th13.webp" alt="Gem Dior Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$3,200.00</p>
+            </div>
+        </div>
+
+        <!-- Product 11 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th14.webp" alt="Liens d'Amour Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$2,800.00</p>
+            </div>
+        </div>
+
+        <!-- Product 12 -->
+        <div class="product-item-horizontal">
+            <div class="product-image-horizontal">
+                <img src="./assets/images/th15.webp" alt="Diorama Ring">
+            </div>
+            <div class="product-info-horizontal">
+                <h3 class="product-name-horizontal">Mens Fashion</h3>
+                <p class="product-price-horizontal">$4,500.00</p>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <!-- Video Section - Rose des Vents -->
+<section class="video-hero" style="position: relative; height: 90vh; min-height: 600px; max-height: 1000px; overflow: hidden; color: #fff; margin-bottom: 40px;">
+
+  <!-- Video Background -->
+  <div class="video-background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+    <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+      <source src="./assets/videos/2.webm" type="video/mp4">
+    </video>
+    <div class="video-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3);"></div>
+  </div>
+
+  <!-- Content Container -->
+  <div class="video-content" style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 5%;">
+
+    <h1 style="font-size: 3.5rem; font-weight: 300; letter-spacing: 2px; margin-bottom: 2rem; text-transform: uppercase;">Fall 2025 New Arrivals</h1>
+
+    <p style="font-size: 1.2rem; line-height: 1.6; max-width: 600px; margin-bottom: 3rem;">
+     Contemporary Elegance
+    </p>
+
+    <a href="#" class="btn btn-primary" style="padding: 12px 30px; font-size: 1rem; letter-spacing: 1px; background: transparent; border: 1px solid #fff; color: #fff; text-decoration: none;">
+      Explore 
+    </a>
+
+  </div>
+
+</section>
+
+  </div>
+
+</section>
+
+ 
+  </div>
+</section>
+
+<br>
+
+ <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" id="collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+               <span class="span">Shop Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/2.webp')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+              
+                  <span class="span">Discover Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/1.webp')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+               
+
+                <a href="#" class="btn-link">
+                  <span class="span">Discover Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/3.webp')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+    
+  
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <!-- footer.html -->
+<footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+391 (0)35 2568 4593</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">hello@domain.com</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">New Products</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Best Sellers</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Bundle & Save</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Gift Card</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Infomation</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Start a Return</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="newsletter-title">Good emails.</p>
+
+          <p class="newsletter-text">
+            Enter your email below to be the first to know about new collections and product launches.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email address" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <p class="copyright">
+            &copy; DIOR
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" loading="lazy" alt="Glowing">
+        </a>
+
+        <img src="./assets/images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- Ionicons Script -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      offset: 100,
+    });
+  </script>
+
+  <!-- Custom JS -->
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
